@@ -1,3 +1,6 @@
+# ignore oh-my-zsh theme
+unset ZSH_THEME
+
 if (( $+commands[starship] )); then
   eval "$(starship init zsh)"
 else
