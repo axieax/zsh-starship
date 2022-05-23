@@ -16,7 +16,9 @@ Add one of the following to your `.zshrc` file depending on your package manager
 
 **Note:** this won't be necessary once this [PR](https://github.com/ohmyzsh/ohmyzsh/pull/10947) is merged.
 
-`git clone https://github.com/axieax/zsh-starship.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/starship`
+```bash
+git clone https://github.com/axieax/zsh-starship.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/starship
+```
 
 2. Add `starship` to the plugins array in your `.zshrc` file:
 
