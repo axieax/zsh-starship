@@ -12,6 +12,8 @@ Add one of the following to your `.zshrc` file depending on your package manager
 
 ## [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
 
+**Note:** please ensure `ZSH_THEME` is not set or else the prompt will be overwritten.
+
 1. Clone this repository as a custom plugin
 
 **Note:** this won't be necessary once this [PR](https://github.com/ohmyzsh/ohmyzsh/pull/10947) is merged.
