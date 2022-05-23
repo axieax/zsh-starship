@@ -37,3 +37,19 @@ antigen bundle axieax/zsh-starship
 ```
 
 2. Start a new terminal session.
+
+## Manual (Git Clone)
+
+1. Clone this repository somewhere on your machine. This guide will assume `~/.zsh/zsh-starship`, although other locations are possible.
+
+```bash
+git clone https://github.com/axieax/zsh-starship.git ~/.zsh/zsh-starship
+```
+
+2. Add the following to your `.zshrc` file:
+
+```zsh
+source ~/.zsh/zsh-starship/starship.plugin.zsh
+```
+
+3. Start a new terminal session.
