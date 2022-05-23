@@ -2,7 +2,7 @@
 
 Initializes [starship prompt](https://starship.rs) - a minimal, blazing-fast and infinitely customizable cross-shell prompt.
 
-![Demo](https://user-images.githubusercontent.com/62098008/169764279-50b48262-9506-4651-ba89-f6611a88ebf0.mp4)
+[Demo](https://user-images.githubusercontent.com/62098008/169764279-50b48262-9506-4651-ba89-f6611a88ebf0.mp4)
 
 # Installation
 
