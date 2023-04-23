@@ -1,6 +1,6 @@
-# starship plugin
+# Starship zsh plugin
 
-Initializes [starship prompt](https://starship.rs) - a minimal, blazing-fast and infinitely customizable cross-shell prompt.
+This ZSH plugin initializes the [Starship prompt](https://starship.rs) - a minimal, blazing-fast and infinitely customizable cross-shell prompt.
 
 [Demo](https://user-images.githubusercontent.com/62098008/169764279-50b48262-9506-4651-ba89-f6611a88ebf0.mp4)
 
@@ -12,19 +12,13 @@ Add one of the following to your `.zshrc` file depending on your package manager
 
 ## [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
 
-1. Clone this repository as a custom plugin
-
-**Note:** this won't be necessary once this [PR](https://github.com/ohmyzsh/ohmyzsh/pull/10947) is merged.
-
-```bash
-git clone https://github.com/axieax/zsh-starship.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/starship
-```
-
-2. Add `starship` to the plugins array in your `.zshrc` file:
+1. Add `starship` to the plugins array in your `.zshrc` file:
 
 ```zsh
 plugins=(... starship)
 ```
+
+> ⚠️ NOTE: this plugin unsets your ZSH_THEME variable
 
 ## [antigen](https://github.com/zsh-users/antigen)
 
@@ -33,8 +27,6 @@ plugins=(... starship)
 ```zsh
 antigen bundle axieax/zsh-starship
 ```
-
-2. Start a new terminal session.
 
 ## Manual (Git Clone)
 
@@ -49,5 +41,3 @@ git clone https://github.com/axieax/zsh-starship.git ~/.zsh/zsh-starship
 ```zsh
 source ~/.zsh/zsh-starship/starship.plugin.zsh
 ```
-
-3. Start a new terminal session.
